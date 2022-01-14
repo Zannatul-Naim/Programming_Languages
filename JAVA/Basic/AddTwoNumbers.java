@@ -17,6 +17,7 @@ public class AddTwoNumbers {
         
       // This line is optional
         input.close();
+        // put summation of two numbers in sum variable.
         sum = num1 + num2;
         System.out.println("Sum of these numbers: "+sum);
     }
