@@ -12,11 +12,19 @@ int factorial(int n)
 int main()
 {
    int num, fact;
-   printf("Enter any integer number:");
+   printf("Enter a positive integer number: ");
    scanf("%d",&num);
  
    //Calling our user defined function
-   fact = factorial(num);
+   if(n >= 0)
+   {
+      fact = factorial(num);
+       //Displaying factorial of input number
+      printf("\nfactorial of %d is: %d", num, fact);
+  
+   }
+   else 
+      printf("Invalid input");
    
    /*
         without recursion
@@ -30,8 +38,6 @@ int main()
    
    */
  
-   //Displaying factorial of input number
-   printf("\nfactorial of %d is: %d",num, fact);
   
    return 0;
 }
