@@ -1,6 +1,3 @@
-/**
- * C program to check Least Significant Bit (LSB) of a number using bitwise operator
- */
 
 #include <stdio.h>
 
