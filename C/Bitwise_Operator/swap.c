@@ -1,6 +1,3 @@
-/**
- * C program to swap two numbers using bitwise operator
- */
 
 #include <stdio.h>
 
