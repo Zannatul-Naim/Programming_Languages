@@ -1,6 +1,3 @@
-/**
- * C program to check Most Significant Bit (MSB) of a number using bitwise operator
- */
 
 #include <stdio.h>
 #define BITS sizeof(int) * 8 // Total bits required to represent integer
