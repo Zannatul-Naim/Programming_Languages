@@ -1,3 +1,5 @@
+// Find cube root in simple way.
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -5,6 +7,6 @@ int main()
   int number, result;
   cout << "Enter any number : ";
   cin >> number;
-  result = pow(number, 1.0/3.0);
+  result = pow(number, 1.0 / 3.0);
   cout << "\n\Cube root of " << number << " is: " << result;
 }
