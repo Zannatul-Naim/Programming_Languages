@@ -1,0 +1,2 @@
+simpleTuple = ("apple", "banana", "cherry")
+print(simpleTuple[0])   # Accessing first item on tuple
