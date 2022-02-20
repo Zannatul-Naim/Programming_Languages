@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-void myFunction() {
-  cout << "I just got executed!\n";
+void func() {
+  cout << "Function called!\n";
 }
 
 int main() {
-  myFunction();
-  myFunction();
-  myFunction();
+  func();
+  func();
+  func();
   return 0;
 }
