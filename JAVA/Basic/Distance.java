@@ -11,10 +11,10 @@ public class Distance {
     double distance;
 
     // read points coordinates
-    System.out.print("Enter first point coordinates: ");
+    System.out.print("Enter first point coordinates x1, y1 : ");
     x1 = scan.nextInt();
     y1 = scan.nextInt();
-    System.out.print("Enter second point coordinates: ");
+    System.out.print("Enter second point coordinates x2, y2: ");
     x2 = scan.nextInt();
     y2 = scan.nextInt();
 
