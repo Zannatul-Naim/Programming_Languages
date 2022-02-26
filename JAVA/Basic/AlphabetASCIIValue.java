@@ -19,13 +19,11 @@ public class AlphabetASCIIValue {
       value = ch;
 
       // display ascii value
-      System.out.println("ASCII value of "+
-                     ch+" = "+value);
- 
+      System.out.println("ASCII value of " + ch + " = " + value); 
       // we can directly display ASCII value
       // using type-casting (int)ch
       System.out.println("ASCII value of "+
-                 ch+" = "+ (int)ch );
+                 ch + " = " + (int)ch );
 
       // close Scanner class object
       scan.close();
