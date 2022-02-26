@@ -24,10 +24,9 @@ public class SimpleInterest {
        interest = (principalAmount * rate * time) / 100;
 
        // display result
-       System.out.println("Simple interest = "+interest);
-       System.out.println("Total amount to pay = "+ 
-                          (principalAmount+interest));
-
+       System.out.println("Simple interest = " + interest);
+       System.out.println("Total amount to pay = " + (principalAmount+interest));
+    
        // close scan 
        scan.close();
    }
