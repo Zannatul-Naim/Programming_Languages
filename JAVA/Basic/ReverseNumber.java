@@ -4,14 +4,14 @@ class ReverseNumber
    {
       int number = 123456789;
      System.out.println("The number is: " + number);
-      int reversenum = 0;
-      while( num != 0 )
+      int reverseNum = 0;
+      while( number != 0 )
       {
-          reversenum = reversenum * 10;
-          reversenum = reversenum + num % 10;
+          reverseNum = reverseNum * 10;
+          reverseNum = reversenum + num % 10;
           number = number / 10;
       }
 
-      System.out.println("Reverse number is: " + reversenum);
+      System.out.println("Reverse number is: " + reverseNum);
    }
 }
