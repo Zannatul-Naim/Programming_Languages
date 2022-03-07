@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main() {
+int main() 
+{
   int c, n;
 
   printf("Ten random numbers in [1,100]\n");
 
-  for (c = 1; c <= 10; c++) {
+  for (c = 1; c <= 10; c++) 
+  {
+    // Get a random number between 1 and 100
     n = rand() % 100 + 1;
     printf("%d\n", n);
   }
