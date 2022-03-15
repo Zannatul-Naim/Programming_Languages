@@ -14,3 +14,11 @@ x, y = y, x
 print("\nAfter swapping: \n")
 print("x = " +  str(x))
 print("y = " + str(y))
+
+temp = x
+x = y
+y = temp
+
+print("\nAfter swapping: \n")
+print("x = " +  str(x))
+print("y = " + str(y))
